@@ -1,0 +1,1 @@
+mvn archetype:generate -DgroupId=com.cc1 -DartifactId=java-project -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
