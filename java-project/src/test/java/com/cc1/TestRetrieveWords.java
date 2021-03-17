@@ -52,7 +52,7 @@ public class TestRetrieveWords {
 
 	}
 	
-	//This test will verify that an empty string entered into the function will return an empty list
+	//This test will verify that a null entered into the function will return an empty list
 	@Test
 	public void TestForFunctionRejectingNull() {
 		List<String> wordList = RetrieveWords.GetWords(null);
